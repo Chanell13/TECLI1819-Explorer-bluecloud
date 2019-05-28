@@ -4,10 +4,10 @@ export class RegisterPage {
 
     // Datos para el registro positivo
     private registerPositive = {
-        name: 'name-e2e-42',
+        name: 'name-e2e-44',
         surname: 'surname-e2e',
         role: 'Explorer',
-        email: 'email-e2e-042@gmail.com',
+        email: 'email-e2e-044@gmail.com',
         // A la hora de las pruebas y crear un usuario NUEVO hay que ir modificando el email, ya que se va almacenando dentro de firebase
         address: 'address-e2e',
         phone: 'phone-e2e',
@@ -16,7 +16,7 @@ export class RegisterPage {
 
     login = {
         // Este email y password debe ser el mismo que el del usuario que hemos registrado justo arriba para poder hacer así su login
-        email: 'email-e2e-042@gmail.com',
+        email: 'email-e2e-044@gmail.com',
         password: '12345678CCC'
     };
 

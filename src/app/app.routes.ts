@@ -45,7 +45,7 @@ const appRoutes: Routes = [
   {
     path: 'applications', children: [
       { path: 'ApplicationDisplay/:id', component: ApplicationDisplayComponent, canActivate: [ActorRoleGuard], data: { expectedRole: 'Administrator|Explorer|Manager' }},
-      { path: '', component: ApplicationListComponent, canActivate: [ActorRoleGuard], data: { expectedRole: 'Explorer|Manager' } }
+      { path: '', component: ApplicationListComponent, canActivate: [ActorRoleGuard], data: { expectedRole: 'Explorer|Manager|Administrator' } }
     ]
   },
   { path: 'ApplicationList', component: ApplicationListComponent, canActivate: [ActorRoleGuard], data: { expectedRole: 'Administrator|Explorer|Manager' }},
